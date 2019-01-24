@@ -1,0 +1,29 @@
+manifest = "fa99c9eb2706f4f0e2a3f0f615ec05ac6210ddc7540580ff5121bf4a67a82c8a"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/freeglut"
+target = "//freeglut/freeglut:freeglut"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/host-opengl"
+target = "//:opengl"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/pkg-config-gl"
+target = "//:gl"
+
+[lock."github.com/buckaroo-pm/freeglut"]
+versions = [ "branch=git_master" ]
+revision = "c7681e035e7b19e1aed8f35ef1ef7271f2812b56"
+
+[lock."github.com/buckaroo-pm/host-opengl"]
+versions = [ "branch=master" ]
+revision = "183de5e5057c37c69dc5d298781b3c131a3688e4"
+
+[lock."github.com/buckaroo-pm/pkg-config-gl"]
+versions = [ "branch=master" ]
+revision = "c8734a6884d0aaa713c059673a103fe58de08084"
+
+[lock."github.com/buckaroo-pm/pkg-config-x11"]
+versions = [ "branch=master" ]
+revision = "6f292a6166cd3c45c776b294485a24e7d71c0e0c"
